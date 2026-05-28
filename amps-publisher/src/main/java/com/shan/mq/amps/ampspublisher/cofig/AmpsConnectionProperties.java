@@ -3,7 +3,10 @@ package com.shan.mq.amps.connectors.amps.config;
 import lombok.Data;
 
 @Data
-public class AmpsProperties {
+@ConfigurationProperties(prefix = "amps")
+public class AmpsConnectionProperties {
+
+    private String clientName;
 
     private String host;
 
