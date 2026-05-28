@@ -1,6 +1,7 @@
-package com.shan.mq.amps.connectors.amps.config;
+package com.shan.mq.amps.ampspublisher.cofig;
 
 import lombok.Data;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
 @ConfigurationProperties(prefix = "amps")

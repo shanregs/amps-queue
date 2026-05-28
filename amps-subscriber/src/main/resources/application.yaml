@@ -17,8 +17,10 @@ logging:
     root: INFO
 
 amps:
+  client-name: subscriber-client
   host: localhost
   port: 9007
+  topic: orders
   queue: orders-queue
 
 consumer:

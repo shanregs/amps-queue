@@ -13,6 +13,12 @@ logging:
     root: INFO
 
 amps:
+  client-name: publisher-client
   host: localhost
   port: 9007
   topic: orders
+  queue: orders-queue
+
+publisher:
+  queue-capacity: 10000
+  batch-size: 100
