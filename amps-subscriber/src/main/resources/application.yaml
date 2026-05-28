@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: amps-subscriber
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+logging:
+  file:
+    name: logs/subscriber.log
+
+  level:
+    root: INFO
+
+amps:
+  host: localhost
+  port: 9007
+  queue: orders-queue
+
+consumer:
+  worker-threads: 8
+  queue-capacity: 50000

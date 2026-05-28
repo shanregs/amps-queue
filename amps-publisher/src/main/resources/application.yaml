@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: amps-publisher
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+logging:
+  level:
+    root: INFO
+
+amps:
+  host: localhost
+  port: 9007
+  topic: orders

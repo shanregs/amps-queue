@@ -1,0 +1,4 @@
+2026-05-28T14:07:33.568+05:30  INFO 21568 --- [amps-subscriber] [main] c.s.m.a.a.AmpsSubscriberApplicationTests : Starting AmpsSubscriberApplicationTests using Java 21.0.6 with PID 21568 (started by shanm in D:\me\work\bmo\amps-queue\amps-queue\amps-subscriber)
+2026-05-28T14:07:33.571+05:30  INFO 21568 --- [amps-subscriber] [main] c.s.m.a.a.AmpsSubscriberApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2026-05-28T14:07:35.918+05:30  INFO 21568 --- [amps-subscriber] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 4 endpoints beneath base path '/actuator'
+2026-05-28T14:07:36.069+05:30  INFO 21568 --- [amps-subscriber] [main] c.s.m.a.a.AmpsSubscriberApplicationTests : Started AmpsSubscriberApplicationTests in 2.924 seconds (process running for 4.124)
