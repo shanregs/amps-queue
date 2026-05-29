@@ -85,7 +85,7 @@
         <dependency>
             <groupId>com.crankuptheamps</groupId>
             <artifactId>amps-client</artifactId>
-            <version>5.3.3.0</version>
+            <version>5.3.5.0</version>
         </dependency>
     </dependencies>
 

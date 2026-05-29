@@ -18,7 +18,7 @@ logging:
 
 amps:
   client-name: subscriber-client
-  host: localhost
+  host: 172.21.12.69
   port: 9007
   topic: orders
   queue: orders-queue

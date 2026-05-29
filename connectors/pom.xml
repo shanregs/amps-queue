@@ -23,7 +23,7 @@
         <dependency>
             <groupId>com.crankuptheamps</groupId>
             <artifactId>amps-client</artifactId>
-            <version>5.3.3.0</version>
+            <version>5.3.5.0</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
@@ -33,7 +33,7 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>1.18.38</version>
-<!--            <optional>true</optional>-->
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>

@@ -1,6 +1,9 @@
 spring:
   application:
     name: amps-publisher
+#  docker:
+#    compose:
+#      enabled: false
 
 management:
   endpoints:
@@ -14,7 +17,7 @@ logging:
 
 amps:
   client-name: publisher-client
-  host: localhost
+  host: 172.21.12.69
   port: 9007
   topic: orders
   queue: orders-queue
@@ -22,3 +25,6 @@ amps:
 publisher:
   queue-capacity: 10000
   batch-size: 100
+
+server:
+  port: 4040
